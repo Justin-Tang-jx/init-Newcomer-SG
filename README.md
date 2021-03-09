@@ -12,20 +12,20 @@ Minimum requirements:
 
 ## Quickstart:
 
-Start with video walk-through: 
+**Start with video walk-through**:  
 recommended to watch the [video](https://drive.google.com/file/d/1dF6qiQW4OEI6gnVGh5m4-b99ZBF-vKEH/view) first as entry point to understand
 
-Overview on architecture:
+**Overview on architecture**:  
 [Single source of truth](https://coverwallet.atlassian.net/wiki/spaces/AON/pages/2324529185/Australia+technical+Overview)
 
-For any unfamiliar terms:
+**For any unfamiliar terms**:  
 refer to this [WIP glossary](https://coverwallet.atlassian.net/wiki/spaces/AON/pages/2686779454/Basic+AUS+glossary)
 
 [All other video walkthroughs](https://drive.google.com/drive/folders/1RPiGurBoze4UPhXh7BNZTOn5gtKH713Y)
 
 ---
 
-BE quickstart locally requirements:
+*BE quickstart local requirements*:
 1. Have ruby 2.5.1 installed with RVM
 2. MongoDB (can use docker image if you do not want to persist data)
 
@@ -37,11 +37,20 @@ Summary (For AUS project):
 - get your task from [jira](https://coverwallet.atlassian.net/secure/RapidBoard.jspa?rapidView=120&projectKey=AONC#). open a branch from master
 - do your job, write a lot of tests for it. (even better if you do TDD)
 - push the branch and open a PR (and ask someone to review)
-- apply the feedback you receive if any and once the PR has been approved merge it into `beta` branch. push it
+- apply the feedback you receive if any and once the PR has been approved merge it into `beta` branch. push it without closing PR.
 - `beta` is the branch where developers and sometimes QA checks that what we have done works
-- once you are satisfied with the result merge your branch in `uat` branch and push it. Sometimes this step is not allowed, normally when carriers are testing something and they need the UAT environment as much stable as possible
+- once you are satisfied with the result, merge your branch in `uat` branch and push it (and again, do not close your PR). Sometimes this step is not allowed, normally when carriers are testing something and they need the UAT environment as much stable as possible. `UAT` & `beta` are "disposable branches" and considered "parallel of `master`" i.e. they do not sit on top of `master`
 - once QA (so Hanna) approves your work you can rebase your branch with master and click the green button to merge it
 - last step go to the #deploys channel and summon the deploy bot: candi to launch the deploy (to check how every push you do goes you can look in our CI/CD tool, [here](https://app.circleci.com/pipelines/github/coverwallet/aon-quotes))
 
 
 ### People to reach out to via slack:
+
+| Name      | Handle | Specifically for |
+| ----------- | ----------- | ----------- |
+| Edgar      | Title       | Title       |
+| Chen Fei   | Text        | Title       |
+| Anthony   | Text        | Title       |
+| Gabriel   | Text        | Title       |
+| Jesús   | Text        | Title       |
+| Andrea   | jonnyjava        | AUS BE       |
