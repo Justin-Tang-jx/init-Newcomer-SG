@@ -1,4 +1,4 @@
-# init-Newcomer-SG
+# Initialise Newcomers in SG
 
 Aim: Documenting getting up to speed.
 
@@ -29,7 +29,14 @@ refer to this [WIP glossary](https://coverwallet.atlassian.net/wiki/spaces/AON/p
 1. Have ruby 2.5.1 installed with RVM
 2. MongoDB (can use docker image if you do not want to persist data)
 
-Or to use docker, refer to [readme here] (https://github.com/coverwallet/aon-quotes)
+Or to use docker, refer to [readme here](https://github.com/coverwallet/aon-quotes)
+
+---
+
+*FE quickstart local requirements*:  
+
+
+
 
 ## Development cycle
 
