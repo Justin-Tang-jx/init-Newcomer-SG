@@ -6,9 +6,9 @@ Aim: Documenting getting up to speed.
 
 Minimum requirements:
 - [x] Github account (you should have else you would not be able to view this md file)
-- [] G suite account -- your CoverWallet gmail and calendar
-- [] Atlassian Confluence account -- you should be able to access [this](https://coverwallet.atlassian.net/wiki/spaces/TECH/overview)
-- [] Slack -- ask to be invited to `sgp-developers`, `singapore-tech`, `team-aon-backenders`, `team-aon-frontenders`, `singapore-hr`. Search and join `singapore`, `team-australia`, `tech team`
+- [ ] G suite account -- your CoverWallet gmail and calendar
+- [ ] Atlassian Confluence account -- you should be able to access [this](https://coverwallet.atlassian.net/wiki/spaces/TECH/overview)
+- [ ] Slack -- ask to be invited to `sgp-developers`, `singapore-tech`, `team-aon-backenders`, `team-aon-frontenders`, `singapore-hr`. Search and join `singapore`, `team-australia`, `tech team`
 
 ## Quickstart:
 
